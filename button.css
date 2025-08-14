@@ -58,3 +58,34 @@
     background: #d9e9ee;
 }
 
+.menu a{
+    color: #e44776;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: background 0.2s;
+}
+
+.menu a:hover {
+    background: #a3dddd;
+}
+
+/*Formulario*/
+
+.formulario {
+    margin: 24px 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.input-texto{
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+.btn-enviar {
+    background: #fce6eb;
+    color: #881e1e;
+    
+}
