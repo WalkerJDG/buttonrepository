@@ -1,0 +1,60 @@
+.animated-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #438ae7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    box-shadow: 0 4px 12px rgba(19, 131, 56, 0.2);
+}
+
+.animated-btn:active {
+    transform: scale(0.95);
+    background: #e02141;
+    box-shadow: 0 2px 6px rgba(21, 229, 236, 0.3);
+}
+
+.animated-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(231, 44, 91, 0.3)
+}
+
+.animated-card {
+    max-width: 350px;
+    margin: 60px auto;
+    padding: 32px 24px;
+    background: linear-gradient(135deg, #5ac1e0 0%, #e66283 100%);
+    border-radius: 18px;   
+    box-shadow: 0 8px 32px rgba(238, 33, 67, 0.15);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+} 
+
+.animated-card:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 16px 40px rgba(90, 231, 231, 0.2);
+}
+
+.animated-card h2 {
+    margin-bottom: 12px;
+    color: #0b2133;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(189, 115, 115, 0.1);
+
+}
+
+/*EL MENU*/
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 17px;
+    padding: 0;
+    background: #d9e9ee;
+}
+
